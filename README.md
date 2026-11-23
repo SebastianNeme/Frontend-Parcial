@@ -26,12 +26,7 @@ Necesitas Node.js 24, npm y Git.
 
 5. Abre http://localhost:4200 en el navegador.
 
-## Probar
-
-1. La tabla debe mostrar los libros que devuelve el backend, con su título, autor, año y biblioteca.
-2. Escribe el nombre, la dirección y la ciudad de una biblioteca.
-3. Pulsa Registrar biblioteca. Si se guarda, los campos del formulario se limpian.
-4. Abre http://localhost:8080/bibliotecas y busca el nombre que registraste para confirmar que quedó guardado.
+La pantalla tiene un formulario para registrar bibliotecas y una tabla con el título, autor, año y biblioteca de los libros que devuelve el backend.
 
 La tabla muestra libros; registrar una biblioteca nueva no crea libros.
 
