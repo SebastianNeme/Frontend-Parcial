@@ -1,0 +1,7 @@
+<h1>Bibliotecas y libros</h1>
+
+<h2>Registrar biblioteca</h2>
+<app-biblioteca-form (bibliotecaRegistrada)="cargarBibliotecas()" />
+
+<h2>Libros</h2>
+<app-libros-tabla [bibliotecas]="bibliotecas()" />

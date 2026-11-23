@@ -1,0 +1,14 @@
+<form [formGroup]="form" (ngSubmit)="registrar()">
+  <fieldset [disabled]="guardando()">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" type="text" formControlName="nombre" maxlength="255" />
+
+    <label for="direccion">Dirección</label>
+    <input id="direccion" type="text" formControlName="direccion" maxlength="255" />
+
+    <label for="ciudad">Ciudad</label>
+    <input id="ciudad" type="text" formControlName="ciudad" maxlength="255" />
+
+    <button type="submit" [disabled]="guardando() || form.invalid">Registrar biblioteca</button>
+  </fieldset>
+</form>
